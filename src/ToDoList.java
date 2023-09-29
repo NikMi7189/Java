@@ -25,7 +25,7 @@ class ToDoList {
             System.out.println("Был введен неверный номер задачи.");
         }
     }
-    public void markTaskAsCompleted(int index) {
+    public void changeTaskStatus(int index) {
         if (index >= 0 && index < tasks.size()) {
             Task task = tasks.get(index);
             if (task.isCompleted()) {

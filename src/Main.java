@@ -53,7 +53,7 @@ public class Main {
                         int index = 0;
                         System.out.print("Введите номер задачи состояние которой вы хотите изменить:");
                         index = input.nextInt();
-                        toDoList.markTaskAsCompleted(index - 1);
+                        toDoList.changeTaskStatus(index - 1);
                         break;
                     }
                     case 4: {
